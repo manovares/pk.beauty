@@ -463,14 +463,16 @@ h2 { font-size: clamp(1.8rem, 3.6vw, 2.6rem); margin-bottom: 1rem; }
 .product-card:hover { transform: translateY(-4px); box-shadow: 0 14px 36px rgba(31, 27, 27, 0.1); }
 .product-card.in-cart { border-color: var(--gold); box-shadow: 0 0 0 2px rgba(232, 92, 59, 0.25); }
 .product-media {
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 1 / 1;
   border-radius: 12px;
   background: linear-gradient(160deg, #f6e0d5, #eeccbb);
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
+  overflow: hidden;
 }
+.product-media img { width: 100%; height: 100%; object-fit: cover; }
 .product-card h3 { font-size: 1.35rem; }
 .product-desc { color: var(--muted); font-size: 0.9rem; flex: 1; }
 .product-buy { display: flex; align-items: center; justify-content: space-between; gap: 0.8rem; margin-top: 0.4rem; }
