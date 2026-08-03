@@ -24,9 +24,9 @@ document
     observer.observe(el);
   });
 
-// Formulário de agendamento → WhatsApp com mensagem pronta
+// Formulário de agendamento → WhatsApp com mensagem pronta (só existe na página inicial)
 const WHATSAPP = '5513996081486';
-document.getElementById('bookingForm').addEventListener('submit', e => {
+document.getElementById('bookingForm')?.addEventListener('submit', e => {
   e.preventDefault();
   const nome = document.getElementById('bkName').value.trim();
   const servico = document.getElementById('bkService').value;
