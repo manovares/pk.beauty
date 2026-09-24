@@ -70,6 +70,21 @@
       color: rgba(255, 255, 255, 0.9);
     }
 
+    .address {
+      margin-top: 0.5rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      font-size: 0.8rem;
+      color: rgba(255, 255, 255, 0.85);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+      padding-bottom: 1px;
+      transition: color 0.2s, border-color 0.2s;
+    }
+    .address:hover { color: #fff; border-color: #fff; }
+    .address svg { width: 14px; height: 14px; flex-shrink: 0; }
+
     .social-row {
       display: flex;
       gap: 1.4rem;
@@ -173,6 +188,10 @@
       <span class="name">BEAUTY</span>
     </div>
     <p class="tagline">Patrick · Especialista em Crespos e Cacheados · São Paulo</p>
+    <a class="address" href="https://www.google.com/maps/place/PK.beauty+%2F+Patrick+Especialista/@-23.509186,-46.5026546,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce610077c08e39:0xf38ff911dcfabe33!8m2!3d-23.509186!4d-46.5026546!16s%2Fg%2F11njfc9j4w" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.6"/></svg>
+      R. Joaquim José Bandeira, 237 · Vila Constança
+    </a>
 
     <div class="social-row">
       <a href="https://www.instagram.com/pk.beauty4c/" target="_blank" rel="noopener" aria-label="Instagram do PK Beauty">
