@@ -8,7 +8,7 @@
 		<version>4.1.0</version>
 		<relativePath/>
 	</parent>
-	<groupId>br.com.matheustavares.cp2</groupId>
+	<groupId>br.com.rm566844.cp2</groupId>
 	<artifactId>sistema-cursos</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>sistema-cursos</name>
